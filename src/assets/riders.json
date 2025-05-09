@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Tadej Pogačar",
+    "nationality": "Slovenian",
+    "birthDate": "1998-09-21",
+    "zodiacSign": "Virgo",
+    "disciplines": ["Road"],
+    "role": "Rider"
+  },
+  {
+    "name": "Primož Roglič",
+    "nationality": "Slovenian",
+    "birthDate": "1989-10-29",
+    "zodiacSign": "Scorpio",
+    "disciplines": ["Road"],
+    "role": "Rider"
+  },
+  {
+    "name": "Wout van Aert",
+    "nationality": "Belgian",
+    "birthDate": "1994-09-15",
+    "zodiacSign": "Virgo",
+    "disciplines": ["Road", "Cyclo-cross"],
+    "role": "Rider"
+  },
+  {
+    "name": "Mathieu van der Poel",
+    "nationality": "Dutch",
+    "birthDate": "1995-01-19",
+    "zodiacSign": "Capricorn",
+    "disciplines": ["Road", "Cyclo-cross", "Mountain Bike"],
+    "role": "Rider"
+  },
+  {
+    "name": "Julian Alaphilippe",
+    "nationality": "French",
+    "birthDate": "1992-06-11",
+    "zodiacSign": "Gemini",
+    "disciplines": ["Road"],
+    "role": "Rider"
+  },
+  {
+    "name": "Peter Sagan",
+    "nationality": "Slovak",
+    "birthDate": "1990-01-26",
+    "zodiacSign": "Aquarius",
+    "disciplines": ["Road", "Mountain Bike"],
+    "role": "Rider"
+  },
+  {
+    "name": "Annemiek van Vleuten",
+    "nationality": "Dutch",
+    "birthDate": "1982-10-08",
+    "zodiacSign": "Libra",
+    "disciplines": ["Road"],
+    "role": "Rider"
+  },
+  {
+    "name": "Marianne Vos",
+    "nationality": "Dutch",
+    "birthDate": "1987-05-13",
+    "zodiacSign": "Taurus",
+    "disciplines": ["Road", "Cyclo-cross", "Track"],
+    "role": "Rider"
+  },
+  {
+    "name": "Egan Bernal",
+    "nationality": "Colombian",
+    "birthDate": "1997-01-13",
+    "zodiacSign": "Capricorn",
+    "disciplines": ["Road"],
+    "role": "Rider"
+  },
+  {
+    "name": "Mark Cavendish",
+    "nationality": "British",
+    "birthDate": "1985-05-21",
+    "zodiacSign": "Gemini",
+    "disciplines": ["Road", "Track"],
+    "role": "Rider"
+  }
+]
