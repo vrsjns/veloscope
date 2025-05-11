@@ -46,7 +46,8 @@ const Home = () => {
     const rider = riders.find(r => r.name === selectedRider);
     if (!rider) return;
 
-    const today = new Date().toISOString().split('T')[0];
+    const date = new Date();
+    const today = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
     const url = `${HOROSCOPES_BASE_URL}/${today}/${rider.name.toLowerCase().replace(/ /g, "_")}.json`;
 
     setLoading(true);
