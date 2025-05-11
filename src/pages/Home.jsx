@@ -26,6 +26,16 @@ function transformRiders(riders) {
     return processedRiders;
 }
 
+function getDate() {
+  const date = new Date();
+
+  const year = date.getFullYear();
+  const month = String(new Date().getMonth() + 1).padStart(2, '0');
+  const day = date.getDate();
+
+  return `${year}-${month}-${day}`;
+}
+
 const Home = () => {
   const [riders, setRiders] = useState(Riders ?? []);
   const [selectedRider, setSelectedRider] = useState('');
@@ -46,8 +56,7 @@ const Home = () => {
     const rider = riders.find(r => r.name === selectedRider);
     if (!rider) return;
 
-    const date = new Date();
-    const today = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
+    const today = getDate()
     const url = `${HOROSCOPES_BASE_URL}/${today}/${rider.name.toLowerCase().replace(/ /g, "_")}.json`;
 
     setLoading(true);
