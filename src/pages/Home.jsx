@@ -3,7 +3,7 @@ import { useCombobox } from 'downshift';
 import HoroscopeCard from '../components/HoroscopeCard';
 import Riders from '../assets/riders.json';
 
-const S3_BASE_URL = 'https://velo-horoscope-01.s3.eu-central-1.amazonaws.com';
+const S3_BASE_URL = 'https://veloscope-data-prod.s3.eu-central-1.amazonaws.com';
 const HOROSCOPES_BASE_URL = `${S3_BASE_URL}/horoscope`;
 const RIDERS_LIST = `${S3_BASE_URL}/uci_riders.json`;
 
